@@ -1,7 +1,7 @@
 (def usage
   ``
-  Usage: jtv [options]
-         jtv <tag>
+  Usage: jptv [options]
+         jptv <tag>
   View jpm tasks by tag.
 
     --help    show this output

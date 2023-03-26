@@ -1,4 +1,4 @@
-# jpm-tasks-view (jtv)
+# jpm-tasks-view (jptv)
 
 Suppose the content of a `project.janet` is:
 
@@ -20,10 +20,10 @@ Suppose the content of a `project.janet` is:
   (os/execute ["ps"] :p))
 ```
 
-With `jtv`, one can do:
+With `jptv`, one can do:
 
 ```
-$ jtv --tags
+$ jptv --tags
 blue
 green
 red
@@ -31,25 +31,25 @@ yellow
 ```
 
 ```
-$ jtv blue
+$ jptv blue
 task-a
 task-c
 ```
 
 ```
-$ jtv green
+$ jptv green
 task-b
 ```
 
 ```
-$ jtv --tasks
+$ jptv --tasks
 task-a
 task-b
 task-c
 ```
 
 ```
-$ jtv
+$ jptv
 blue
   task-c
   task-a
