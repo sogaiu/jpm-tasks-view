@@ -147,12 +147,12 @@
       (def name-len
         (length name))
       # XXX
-      (def doc "")
+      (def doc-str "")
       (def spacer
         (string/repeat " "
                        (- (+ longest-name-length min-spaces)
                           name-len)))
-      (printf "%s%s%s" name spacer doc))))
+      (printf "%s%s%s" name spacer doc-str))))
 
 (defn main
   [& argv]
